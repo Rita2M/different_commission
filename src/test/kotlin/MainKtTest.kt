@@ -8,7 +8,7 @@ class MainKtTest {
     fun calculateCommissionMir(){
         val result = calculateCommission( "mir", 100, 650000)
 
-        assertEquals(null, result)
+        assertEquals(50, result)
     }
     @Test
     fun calculateCommissionMaestro(){

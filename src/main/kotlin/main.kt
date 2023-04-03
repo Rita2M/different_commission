@@ -1,5 +1,6 @@
 fun main(){
-     calculateCommission(purchaseAmount = 70000)
+       calculateCommission(purchaseAmount = 70000)
+
 }
 
 fun calculateCommission(cardType: String = "VK Pay", purchaseAmount: Int, purchaseAmountMonth: Int = 0): Int? {
